@@ -12,6 +12,7 @@ use base 'Perl6::Pod::Block';
 our $VERSION = '0.01';
 
 =pod
+
 From 
  =CHANGES
  date (revnumber) (\t|\s{2,} ) revremark [authorinitials]
@@ -29,6 +30,7 @@ to
                  <revremark>test text</revremark>
                </revision>
         </revhistory>
+
 =cut
 
 sub to_docbook {
